@@ -51,16 +51,9 @@ public class StudentDAO {
 			while (rs.next()) {
 				sb = new StudentBean(); // Initialize the bean class to hold the values
 				sb.setStudentName(rs.getString(1));
-				//al.add(sb.getStudentName());
-
 				sb.setStudentEmail(rs.getString(2));
-				//al.add(sb.getStudentEmail());
-
 				sb.setStudentProgram(rs.getString(3));
-				//al.add(sb.getStudentProgram());
-
 				sb.setStudentGrade(rs.getString(4));
-				//al.add(sb.getStudentGrade());
 				al.add(sb);
 			}
 			connection.close();

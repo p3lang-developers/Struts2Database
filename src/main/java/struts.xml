@@ -8,7 +8,7 @@
 
 		<action name="viewStudents" class="com.p3lang.struts2.action.StudentsAction">
 			<result name="success">web/success.jsp</result>
-			<result name="error">/error.jsp</result>
+			<result name="error">web/error.jsp</result>
 		</action>
 
 	</package>
